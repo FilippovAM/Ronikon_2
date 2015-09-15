@@ -1,0 +1,58 @@
+.header{
+    background-color: #366b77;
+    padding: 45px 0;
+    vertical-align: top;
+    text-shadow: 0px 1px 0px #eee;
+}
+
+.container_header_text_column{
+    float: left;
+    color: white;
+    text-align: left;
+}
+
+.sale_50{
+    font-size: 57px;
+}
+
+.container_header_text_column h2{
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.logo{
+    float: left;
+    margin-left: 80px;
+}
+
+.container_header_tel_column{
+    float: right;
+    text-align: center;
+}
+
+.container_header_tel_column a{
+    font-size: 28px;
+    color: white;
+}
+
+.back_call{
+    font-size: 19px;
+    color: white;
+    padding: 15px 25px;
+    background-color: #62979a;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+
+    -webkit-transition: color ease-in-out .15s, border-color ease-in-out .15s, background-color ease-in-out .15s;
+    -o-transition: color ease-in-out .15s, border-color ease-in-out .15s, background-color ease-in-out .15s;
+    transition: color ease-in-out .15s, border-color ease-in-out .15s, background-color ease-in-out .15s;
+}
+
+.back_call:hover{
+    background-color: #7dbdc0;
+}
+
+.back_call:active{
+    padding: calc(15px + 1px) 25px calc(15px - 1px);
+}
